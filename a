@@ -11,6 +11,4 @@ pkg install metasploit -y
 cd
 git clone https://github.com/Lemon-Hacking/Lemon
 cd $HOME/Lemon && sh Install
-yes
-yes
 
