@@ -1,5 +1,5 @@
 clear
-pkg install git php python python2 ruby figlet -y
+pkg install php python python2 ruby figlet -y
 pkg install curl wget proot unstable-repo toilet -y
 pkg install openssh -y
 gem install lolcat
@@ -8,3 +8,8 @@ pip install --upgrade pip && pip install requests && pip2 install requests && pi
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc
 clear
 pkg install metasploit -y
+git clone https://github.com/Lemon-Hacking/Lemon
+cd $HOME/Lemon && sh Install
+yes
+yes
+
