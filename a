@@ -8,6 +8,7 @@ pip install --upgrade pip && pip install requests && pip2 install requests && pi
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc
 clear
 pkg install metasploit -y
+cd
 git clone https://github.com/Lemon-Hacking/Lemon
 cd $HOME/Lemon && sh Install
 yes
