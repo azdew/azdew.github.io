@@ -1,6 +1,7 @@
 clear
 pkg install git php python python2 ruby figlet -y
-pkg install curl wget proot unstable-repo toilet -y pkg install openssh -y
+pkg install curl wget proot unstable-repo toilet -y
+pkg install openssh -y
 gem install lolcat
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
