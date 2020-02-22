@@ -1,8 +1,16 @@
 clear
-pkg install php python python2 ruby figlet -y
-pkg install curl wget proot unstable-repo toilet -y
+pkg install php -y
+pkg install python -y
+pkg install python2 -y
+pkg install ruby -y
+pkg install curl -y
+pkg install wget -y
+pkg install proot -y
+pkg install unstable-repo -y
+pkg install toilet -y
+pkg install figlet -y
 pkg install openssh -y
-gem install lolcat
+gem install lolcat -y
 clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
