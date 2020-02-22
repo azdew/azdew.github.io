@@ -10,7 +10,7 @@ alias ch='cd ..; cd usr; cd etc; nano bash.bashrc'
 alias up='cd; cd azdew.github.io; sh up'
 alias hackface='cd ;cd weeman ;python2 weeman.py'
 clear
-figlet -f slant TRANG | lolcat -a -d 15 -s 50
+figlet -f slant TRANG2907 | lolcat -a -d 15 -s 50
 date | lolcat -d 5 -a
 termux-battery-status | lolcat -a -d 15 -s 75
 echo ---------------------------------------------------------------- | lolcat -a -d 150 -s 250
