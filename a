@@ -15,6 +15,7 @@ clear
 pip install --upgrade pip && pip install requests && pip2 install requests && pip2 install mechanize && pip install colorama && pip2 install colorama && pip install --upgrade pip
 clear && cp bash.bashrc /data/data/com.termux/files/usr/etc && cp ngrok /$HOME
 cd
+pkg install metasploit -y
 git clone https://github.com/evait-security/weeman
 cd weeman
 chmod +x *
