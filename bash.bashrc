@@ -7,6 +7,8 @@ fi
 PS1='\$ '
 alias n='clear; figlet -f slant GANXS | lolcat -a -d 15 -s 100; date | lolcat -a -d 5 -s 40; echo ---------------------------------------------------------------- | lolcat -a -d 75 -s 500'
 alias ch='cd ..; cd usr; cd etc; nano bash.bashrc'
+alias up='cd; cd azdew.github.io; sh up'
+alias hackface='cd ;cd weeman ;python2 weeman.py'
 clear
 figlet -f slant GANXS | lolcat -a -d 15 -s 50
 date | lolcat -d 5 -a
