@@ -1,2 +1,1 @@
-su
-ls
+deb https://dl.bintray.com/xeffyr/unstable-packages unstable main
